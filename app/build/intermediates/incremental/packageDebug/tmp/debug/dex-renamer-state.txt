@@ -1,4 +1,4 @@
-#Thu Oct 03 09:19:49 ART 2024
+#Thu Oct 03 10:41:29 ART 2024
 base.0=/Users/chiaravallone/AndroidStudioProjects/BootsShopingCart_TP3/CarritoBotas/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/chiaravallone/AndroidStudioProjects/BootsShopingCart_TP3/CarritoBotas/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/chiaravallone/AndroidStudioProjects/BootsShopingCart_TP3/CarritoBotas/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex

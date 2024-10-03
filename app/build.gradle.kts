@@ -50,20 +50,32 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
+
+    // Compose BOM (Bill of Materials) para gestionar las versiones de Compose
     implementation(platform(libs.androidx.compose.bom))
-    implementation(libs.androidx.ui)
-    implementation(libs.androidx.ui.graphics)
-    implementation(libs.androidx.ui.tooling.preview)
+
+    // Material3
     implementation(libs.androidx.material3)
+
+    // Compose UI
+    implementation(libs.androidx.ui)
+
+    // Herramientas de vista previa de Compose
+    implementation(libs.androidx.ui.tooling.preview)
+
+    // Gráficos de Compose
+    implementation(libs.androidx.ui.graphics)
+
+    // Pruebas
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)
+
+    // Herramientas de depuración
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }

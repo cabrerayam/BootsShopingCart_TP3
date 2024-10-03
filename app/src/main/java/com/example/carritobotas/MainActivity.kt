@@ -14,8 +14,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CarritoBotasTheme {
-                ShopListScreen()
-                //DetailScreen()
+                //ShopListScreen()
+                DetailScreen()
             }
         }
     }
